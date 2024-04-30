@@ -11,17 +11,17 @@ for (let index = 1; index <= 100; index++) {
 
   // Istruzione condizionale per vedere quali numeri sono divisibili per 3, per 5, per entrambi e per nessuno di questi
   if (index % 3 == 0 && index % 5 == 0) {
-    console.log("divisibile per 3 e per 5");
     li.append("FizzBuzz");
     li.classList.add("fizz-buzz");
+    console.log(index, "Il numero è divisibile per 3 e per 5");
   } else if (index % 3 == 0) {
     li.append("Fizz");
     li.classList.add("fizz");
-    console.log("divisibile per 3");
+    console.log(index, "Il numero è divisibile per 3");
   } else if (index % 5 == 0) {
     li.append("Buzz");
     li.classList.add("buzz");
-    console.log("divisibile per 5");
+    console.log(index, "Il numero è divisibile per 5");
   } else {
     li.append(index);
     li.classList.add("number");
