@@ -4,6 +4,8 @@ const ul = document.getElementById("numbers-list");
 
 for (let index = 1; index <= 100; index++) {
   const li = document.createElement("li");
+  li.append("Ciao");
+  ul.append(li);
 }
 
 /*if (index % 3) {
