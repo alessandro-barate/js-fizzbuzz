@@ -4,6 +4,55 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #083b4c;
+}
+
+.numbers-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#numbers-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  padding: 30px 10px 30px 10px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 60px;
+  color: white;
+}
+
 ul {
-  padding-left: 50px;
+  list-style: none;
+}
+
+.li-size {
+  background-color: gold;
+  display: inline-block;
+  width: calc(100% / 5 - 30px);
+  height: 215px;
+  line-height: 215px;
+  font-size: 30px;
+}
+
+.number {
+  background-color: #1389b2;
+}
+
+.fizz {
+  background-color: #0cd6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
+}
+
+.fizz-buzz {
+  background-color: #f0466f;
 }
