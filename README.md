@@ -18,8 +18,8 @@ numero % 3 --> se true stampo Fizz
 numero % 5 --> se true stampo Buzz
 numero % 3 && numero % 5--> se true stampo FizzBuzz
 
-metto un ciclo for per generare i numeri da 1 a 100
-
-if (divisibile per 3) stampo fizz
-else if (divisibile per 5) stampo buzz
-else if (divisibile per 3 E per 5) stampo fizzbuzz
+- prendo dall'html l'id della lista
+- metto un ciclo for per generare li da 1 a 100
+- if (divisibile per 3) stampo fizz nelle li corrispondenti
+  else if (divisibile per 5) stampo buzz fizz nelle li corrispondenti
+  else if (divisibile per 3 E per 5) stampo fizzbuzz fizz nelle li corrispondenti
