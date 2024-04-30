@@ -14,13 +14,22 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 Ricordate: il primo push dovrà essere un file README.md contenente la risoluzione dell’esercizio in linguaggio naturale!
 Buon lavoro e buon divertimento!
 
+--- LOGICA DELLE CONDIZIONI ---
 numero % 3 == 0 && numero % 5 == 0 --> se true stampo FizzBuzz
 numero % 3 == 0 --> se true stampo Fizz
 numero % 5 == 0 --> se true stampo Buzz
 
-- prendo dall'html l'id della lista
-- metto un ciclo for per generare li da 1 a 100
-- if (divisibile per 3 E per 5) stampo fizz buzz nelle li corrispondenti --> Prima bisogna mettere la casistica più complessa perchè se si mette alla fine
-  del ciclo non ci si entrerà mai.
+---
+
+1 - prendo dall'html l'id della lista
+
+2 - metto un ciclo for per generare li da 1 a 100 - creo la variabile li che crea gli li - append di li a ul - gli aggiungo la classe di style dei quadrati
+
+3 - if (divisibile per 3 E per 5) stampo fizz buzz nelle li corrispondenti --> Prima bisogna mettere la casistica più complessa perchè se si mette alla fine
+del ciclo non ci si entrerà mai.
+
 - else if (divisibile per 3) stampo fizz nelle li corrispondenti
 - else if (divisibile per 5) stampo buzz nelle li corrispondenti
+- else per tutti i casi rimanenti
+
+4 - aggiungo nei diversi casi le classi di style per i quadrati

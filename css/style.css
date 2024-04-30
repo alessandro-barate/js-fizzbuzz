@@ -1,13 +1,15 @@
+/************
+GLOBAL RESET
+************/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #083b4c;
-}
-
+/**************
+CONTAINERS
+**************/
 .numbers-container {
   width: 80%;
   margin: 0 auto;
@@ -22,6 +24,9 @@ body {
   padding: 30px 10px 30px 10px;
 }
 
+/***************
+GENERAL STYLE
+***************/
 h1 {
   padding-top: 30px;
   font-size: 60px;
@@ -39,6 +44,13 @@ ul {
   height: 215px;
   line-height: 215px;
   font-size: 30px;
+}
+
+/*******************
+BACKGROUND COLORS
+*******************/
+body {
+  background-color: #083b4c;
 }
 
 .number {

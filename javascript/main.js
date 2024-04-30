@@ -1,12 +1,15 @@
 "use strict";
 
+// Leggo ID dall'HTML
 const ul = document.getElementById("numbers-list");
 
+// Ciclo per creare gli li nella lista con aggiunta classe di style
 for (let index = 1; index <= 100; index++) {
   const li = document.createElement("li");
   ul.append(li);
   li.classList.add("li-size");
 
+  // Istruzione condizionale per vedere quali numeri sono divisibili per 3, per 5, per entrambi e per nessuno di questi
   if (index % 3 == 0 && index % 5 == 0) {
     console.log("divisibile per 3 e per 5");
     li.append("FizzBuzz");
